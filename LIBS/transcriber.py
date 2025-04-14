@@ -88,7 +88,7 @@ class Transcriber:
         return "\n".join(results)
 
     def summarize_text(self):
-        API_KEY = "AIzaSyBh6P6Yv4mseN2gslThw4-OoJ9h_aPlwiw"
+        API_KEY = "YOUR API KEY HERE"
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
         data = {
             "contents": [{

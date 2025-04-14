@@ -69,14 +69,12 @@ python main.py
 
 ---
 
-## 🚀 Hackathon Relevance
-
-**Summarize AI** solves a major real-world problem — **time wastage in content consumption**. By combining speech recognition and GenAI, it delivers smart summaries and saves hours of effort.
+## 🚀 Replace your api key LIBS/transcrible.py   API_KEY = "YOUR API KEY HERE"
 
 ---
 
 ## 📬 Contact / Credits
 
-Made with ❤️ by [Your Name] – Shivox
+Made with ❤️ by [Amit] – Shivox
 
 ---
