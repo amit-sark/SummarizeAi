@@ -23,9 +23,8 @@ It uses **Vosk** (offline) for transcription and **Gemini flash2.0** (online) fo
 
 ## 🖥️ UI Screenshots
 
-| Initial Screen | Final Output |
-|----------------|---------------|------------------------|
-| ![Initial](assets/image/Screenshot2025-04-14204425.png) | ![Writing](assets/image/Screenshot(6).png) | 
+
+![Initial](assets/image/Screenshot2025-04-14204425.png) | ![Writing](assets/image/Screenshot(6).png) | 
 ---
 
 ## 🛠️ Requirements
@@ -33,7 +32,3 @@ It uses **Vosk** (offline) for transcription and **Gemini flash2.0** (online) fo
 - Python 3.9 or above
 - FFmpeg (included as `./ffmpeg.exe`)
 - Internet (only for summary generation)
-
-### Python Libraries:
-```bash
-pip install -r requirements.txt
