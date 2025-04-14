@@ -1,0 +1,21 @@
+Okay, here's a step-by-step summary of the text, followed by the top 5 keywords:
+
+**Step-by-Step Summary:**
+
+1.  **Introduction:** The video introduces a project to build a budget-friendly drone using Arduino.  The first part focuses on creating a custom 6-channel transmitter and receiver, comparable to commercial systems but cheaper.
+2.  **Transmitter Build:**  The transmitter is built using an Arduino Nano, joystick modules (for throttle/yaw and roll/pitch), and a zero PCB. The connections are made according to a connection diagram.
+3.  **PCB Design and Ordering:** The creator uses Altium Designer (through Altium Student Lab) to design a professional-grade PCB for the project. The PCB will be ordered from NextPCB.com.
+4.  **Transmitter Programming:** The NRF24 library is used to program the transmitter. Code is available in the video description.
+5.  **Receiver Build:** The receiver uses an NRF24 module, a 3.3V adapter, and an Arduino Nano.  The components are connected based on a circuit diagram found on the website.
+6.  **Receiver Programming and Troubleshooting:** The receiver is programmed with a failsafe mode (throttle reduction if out of range). Initial problems with the receiver's responsiveness are addressed by adding a capacitor and then by removing the OLED display due to processing limitations of the Arduino Nano.
+7.  **3D Printed Case:** A 3D-printed case is used for the transmitter to improve its appearance.  The 3D files are available on the website.
+8.  **Next Steps:** The next video will focus on building the drone itself using the custom transmitter and receiver.
+9.  **Sponsorship:** The video is sponsored by Altium 365.
+
+**Top 5 Keywords:**
+
+1.  **Drone:** The central topic of the project.
+2.  **Arduino:** The microcontroller used for both transmitter and receiver.
+3.  **Transmitter:** The custom-built control unit.
+4.  **Receiver:** The unit that receives signals on the drone.
+5.  **NRF24:** The wireless module used for communication.
