@@ -56,13 +56,13 @@ It uses **Vosk** (offline) for transcription and **Gemini flash2.0** (online) fo
 ---
 
 ## 📦 How to Use
-
-1. git clone https://github.com/amit-sark/SummarizeAi.git
-2. cd SummarizeAi
+```bash
+git clone https://github.com/amit-sark/SummarizeAi.git
+```bash
+cd SummarizeAi
 ```bash
 pip install -r requirements.txt
 ```
-3. Run the app
 ```bash
 python main.py
 ```
