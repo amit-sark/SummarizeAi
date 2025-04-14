@@ -31,4 +31,15 @@ It uses **Vosk** (offline) for transcription and **Gemini flash2.0** (online) fo
 
 - Python 3.9 or above
 - FFmpeg (included as `./ffmpeg.exe`)
-- Internet (only for summary generation)
+- Internet
+
+
+### Python Libraries:
+```bash
+pip install -r requirements.txt
+
+### Python Libraries:
+```bash
+git clone https://github.com/amit-sark/SummarizeAi.git
+cd summarize-ai
+python main.py

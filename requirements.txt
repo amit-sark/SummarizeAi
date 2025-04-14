@@ -1,0 +1,5 @@
+pillow==11.2.1
+customtkinter==5.2.2
+requests==2.32.3
+SpeechRecognition==3.14.2
+pydub==0.25.1
