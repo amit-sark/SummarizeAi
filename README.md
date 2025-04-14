@@ -33,6 +33,15 @@ It uses **Vosk** (offline) for transcription and **Gemini flash2.0** (online) fo
 - FFmpeg (included as `./ffmpeg.exe`)
 - Internet
 
+## 📦 How to Use
+```bash
+git clone https://github.com/amit-sark/SummarizeAi.git
+cd SummarizeAi
+pip install -r requirements.txt
+python main.py
+```
+
+---
 ## 🛠️ Technologies Used
 
 | Technology        | Purpose                               |
@@ -52,16 +61,6 @@ It uses **Vosk** (offline) for transcription and **Gemini flash2.0** (online) fo
 - 🏢 **Professionals**: Get meeting summaries in minutes
 - 🎤 **Podcasters & Creators**: Extract key points from content
 - 📖 **Readers**: Summarize long documents instantly
-
----
-
-## 📦 How to Use
-```bash
-git clone https://github.com/amit-sark/SummarizeAi.git
-cd SummarizeAi
-pip install -r requirements.txt
-python main.py
-```
 
 ---
 

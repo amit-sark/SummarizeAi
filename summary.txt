@@ -1,21 +1,89 @@
-Okay, here's a step-by-step summary of the text, followed by the top 5 keywords:
+# 📄 Summarize AI
 
-**Step-by-Step Summary:**
+**Summarize AI** is a smart, AI-powered desktop tool that transcribes and summarizes content from **video, audio, or text files** using a combination of speech recognition and generative AI.
 
-1.  **Introduction:** The video introduces a project to build a budget-friendly drone using Arduino.  The first part focuses on creating a custom 6-channel transmitter and receiver, comparable to commercial systems but cheaper.
-2.  **Transmitter Build:**  The transmitter is built using an Arduino Nano, joystick modules (for throttle/yaw and roll/pitch), and a zero PCB. The connections are made according to a connection diagram.
-3.  **PCB Design and Ordering:** The creator uses Altium Designer (through Altium Student Lab) to design a professional-grade PCB for the project. The PCB will be ordered from NextPCB.com.
-4.  **Transmitter Programming:** The NRF24 library is used to program the transmitter. Code is available in the video description.
-5.  **Receiver Build:** The receiver uses an NRF24 module, a 3.3V adapter, and an Arduino Nano.  The components are connected based on a circuit diagram found on the website.
-6.  **Receiver Programming and Troubleshooting:** The receiver is programmed with a failsafe mode (throttle reduction if out of range). Initial problems with the receiver's responsiveness are addressed by adding a capacitor and then by removing the OLED display due to processing limitations of the Arduino Nano.
-7.  **3D Printed Case:** A 3D-printed case is used for the transmitter to improve its appearance.  The 3D files are available on the website.
-8.  **Next Steps:** The next video will focus on building the drone itself using the custom transmitter and receiver.
-9.  **Sponsorship:** The video is sponsored by Altium 365.
+---
 
-**Top 5 Keywords:**
+## 🧠 Core Features
 
-1.  **Drone:** The central topic of the project.
-2.  **Arduino:** The microcontroller used for both transmitter and receiver.
-3.  **Transmitter:** The custom-built control unit.
-4.  **Receiver:** The unit that receives signals on the drone.
-5.  **NRF24:** The wireless module used for communication.
+- 🎹 **Transcribe audio/video files** (using Vosk or Google SpeechRecognition)
+- ✨ **Generate intelligent summaries** with `Gemini Flash 2.0`
+- 📄 **Process plain text files** for direct summarization
+- 📂 Supports formats: `.mp4`, `.mp3`, `.wav`, `.txt`
+- 💻 Easy-to-use GUI with `CustomTkinter`
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology        | Purpose                               |
+|-------------------|----------------------------------------|
+| Vosk              | Offline speech-to-text transcription   |
+| SpeechRecognition | Online speech transcription (Google)   |
+| Gemini Flash 2.0  | AI-powered text summarization          |
+| Pydub             | Audio splitting and conversion         |
+| PIL               | Image processing for GUI               |
+| CustomTkinter     | Modern desktop GUI                     |
+
+---
+
+## 🧹 Real-Life Use Cases
+
+- 🎓 **Students**: Summarize lectures and tutorials
+- 🏢 **Professionals**: Get meeting summaries in minutes
+- 🎤 **Podcasters & Creators**: Extract key points from content
+- 📖 **Readers**: Summarize long documents instantly
+
+---
+
+## 🗄️ Screenshots
+
+### 1. Video/Audio Loading Interface
+![Listing](assets/image/9251270.png)
+
+### 2. Transcribing Progress
+![Writing](assets/image/writting.jpg)
+
+### 3. AI Generating Summary
+![AI Writing](assets/image/ai_writting.jpg)
+
+### 4. Process Complete
+![Done](assets/image/done.png)
+
+```
+assets/
+├── image/
+│   ├── 9251270.png
+│   ├── writting.jpg
+│   ├── ai_writting.jpg
+│   └── done.png
+```
+
+---
+
+## 📦 How to Use
+
+1. Clone the repository
+2. Install requirements
+```bash
+pip install -r requirements.txt
+```
+3. Run the app
+```bash
+python main.py
+```
+
+---
+
+## 🚀 Hackathon Relevance
+
+**Summarize AI** solves a major real-world problem — **time wastage in content consumption**. By combining speech recognition and GenAI, it delivers smart summaries and saves hours of effort.
+
+---
+
+## 📬 Contact / Credits
+
+Made with ❤️ by [Your Name] – Shivox
+
+---
+
