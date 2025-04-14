@@ -33,13 +33,50 @@ It uses **Vosk** (offline) for transcription and **Gemini flash2.0** (online) fo
 - FFmpeg (included as `./ffmpeg.exe`)
 - Internet
 
+## 🛠️ Technologies Used
 
-### Python Libraries:
+| Technology        | Purpose                               |
+|-------------------|----------------------------------------|
+| Vosk              | Offline speech-to-text transcription   |
+| SpeechRecognition | Online speech transcription (Google)   |
+| Gemini Flash 2.0  | AI-powered text summarization          |
+| Pydub             | Audio splitting and conversion         |
+| PIL               | Image processing for GUI               |
+| CustomTkinter     | Modern desktop GUI                     |
+
+---
+
+## 🧹 Real-Life Use Cases
+
+- 🎓 **Students**: Summarize lectures and tutorials
+- 🏢 **Professionals**: Get meeting summaries in minutes
+- 🎤 **Podcasters & Creators**: Extract key points from content
+- 📖 **Readers**: Summarize long documents instantly
+
+---
+
+## 📦 How to Use
+
+1. git clone https://github.com/amit-sark/SummarizeAi.git
+2. cd SummarizeAi
 ```bash
 pip install -r requirements.txt
-
-### Python Libraries:
+```
+3. Run the app
 ```bash
-git clone https://github.com/amit-sark/SummarizeAi.git
-cd summarize-ai
 python main.py
+```
+
+---
+
+## 🚀 Hackathon Relevance
+
+**Summarize AI** solves a major real-world problem — **time wastage in content consumption**. By combining speech recognition and GenAI, it delivers smart summaries and saves hours of effort.
+
+---
+
+## 📬 Contact / Credits
+
+Made with ❤️ by [Your Name] – Shivox
+
+---
